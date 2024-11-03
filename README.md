@@ -18,3 +18,19 @@
 ```
 
 ---
+# Documentation Assignment
+
+Please follow this command if you pull this repository
+
+1. runing `make docker-build`
+2. runing `make jupyter`
+2. runing `make kafka`
+3. runing `make kafka-create-topic` because I am create new topic for this assignment
+
+After that you can runing jupyter file:
+1. `notebooks/Dibimbing-kafka-assign-produce.ipynb` for produce generate message using protopuf formating
+2. `notebooks/Dibimbing-kafka-assign-consume.ipynb` for 
+read message 
+
+Protobuf formating save in directory `notebooks/proto`
+

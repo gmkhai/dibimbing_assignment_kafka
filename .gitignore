@@ -1,6 +1,9 @@
+.devcontainer/
 logs/*
 !logs/.gitkeep
 notebooks/*
 !notebooks/*.ipynb
+!notebooks/proto
+notebooks/proto/__pycache__
 dags/*
 !dags/*.py

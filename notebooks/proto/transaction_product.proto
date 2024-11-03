@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message TransactionProduct {
+    string id = 1;
+    string product_name = 2;
+    string customer_name = 3;
+    string status = 4;
+    string timestamp = 5;
+    int32 total_payment = 6;
+    
+
+}
